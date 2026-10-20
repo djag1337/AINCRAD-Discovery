@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00512D7FB9101C3BBBBBCD28 /* QuickLookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EA892B310616E2D71CB23 /* QuickLookPreview.swift */; };
+		15CF083D3AA1B2F129D43A48 /* Rajdhani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71DD4C16A5A75189D600FA6E /* Rajdhani-SemiBold.ttf */; };
+		2DD0D37127B11DCB9A035374 /* FileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472F401F38B772919033BD5A /* FileStore.swift */; };
+		33A35F1EBF11CCFCAD85EEBC /* ColumnBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B38033DF5A26AFB2F2A720 /* ColumnBrowserView.swift */; };
+		45CB09DA975F34108CCC7B90 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC90BFECA4F1BED5388A423 /* FileItem.swift */; };
+		4B25E262FB4B2E7C1B76E37A /* Rajdhani-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 689AC676E6ACBF1A58A99AEA /* Rajdhani-Medium.ttf */; };
+		5A3C80CCB2DBE4F652A86D33 /* DiscoveryControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFFDA93F765FF563BCABB9 /* DiscoveryControls.swift */; };
+		5ABDFF5AAAED2788297B2670 /* FileSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCDC9CA71582C935319812 /* FileSearch.swift */; };
+		6667BF7D062310A06E44EE1F /* DiscoveryWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8A4CCCB0A0A47281FCC73 /* DiscoveryWindowController.swift */; };
+		846CDA24CD6BF258FD9BBE24 /* AINCRADTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B859D6940CD121CAA272B /* AINCRADTheme.swift */; };
+		9057ABE533F02BE79D73D0A3 /* DiscoveryPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA223327444A6C4BAC5D3F15 /* DiscoveryPrefs.swift */; };
+		9289AA8AF2ED811F6203FD13 /* FileOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18792294B9E3D8CC8B80257 /* FileOps.swift */; };
+		A9F03332F5F7363D01EBA63F /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F72F2B9D3BC702E78C93F /* Rajdhani-Bold.ttf */; };
+		B33ECACF5CAEFCE38F2CFEDE /* OFL-Orbitron.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5BC1F71676E1A1617E448BE /* OFL-Orbitron.txt */; };
+		B38B19AC287116EF01219844 /* DiscoveryOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C5856F440AFB0F2FB33BE5 /* DiscoveryOps.swift */; };
+		B3D0F2AD1760AF3AEB3BF8D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025436A20E5981DAEDAAA72 /* AppDelegate.swift */; };
+		C3925DB3ABA8B6210017DB98 /* Orbitron-wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 981D8668AEE4A0772B4A8494 /* Orbitron-wght.ttf */; };
+		DEAE20940BA8BBB0DA682ACE /* OFL-Rajdhani.txt in Resources */ = {isa = PBXBuildFile; fileRef = BDDEBF1D065B37CB9922714C /* OFL-Rajdhani.txt */; };
+		EC6D5BB39A0759FC394147EA /* DiscoverySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FABB3D54A35E133817FC2E /* DiscoverySettings.swift */; };
+		F58326F4B2750045924ACEEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC5F3B2912B4CEDC5666A5 /* main.swift */; };
+		FE935E56A1E5AE1A2B73FD7D /* FileTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6339051149B3E3B8F0B473 /* FileTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A5F72F2B9D3BC702E78C93F /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
+		184B859D6940CD121CAA272B /* AINCRADTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AINCRADTheme.swift; sourceTree = "<group>"; };
+		472F401F38B772919033BD5A /* FileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStore.swift; sourceTree = "<group>"; };
+		50C5856F440AFB0F2FB33BE5 /* DiscoveryOps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryOps.swift; sourceTree = "<group>"; };
+		54B38033DF5A26AFB2F2A720 /* ColumnBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnBrowserView.swift; sourceTree = "<group>"; };
+		5AAC2BB1E14079471A91C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5CC90BFECA4F1BED5388A423 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		5EC8A4CCCB0A0A47281FCC73 /* DiscoveryWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryWindowController.swift; sourceTree = "<group>"; };
+		689AC676E6ACBF1A58A99AEA /* Rajdhani-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Medium.ttf"; sourceTree = "<group>"; };
+		69CC5F3B2912B4CEDC5666A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6A2EA892B310616E2D71CB23 /* QuickLookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreview.swift; sourceTree = "<group>"; };
+		71DD4C16A5A75189D600FA6E /* Rajdhani-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-SemiBold.ttf"; sourceTree = "<group>"; };
+		85BCDC9CA71582C935319812 /* FileSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSearch.swift; sourceTree = "<group>"; };
+		90FFFDA93F765FF563BCABB9 /* DiscoveryControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryControls.swift; sourceTree = "<group>"; };
+		981D8668AEE4A0772B4A8494 /* Orbitron-wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-wght.ttf"; sourceTree = "<group>"; };
+		A7FABB3D54A35E133817FC2E /* DiscoverySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySettings.swift; sourceTree = "<group>"; };
+		AF6339051149B3E3B8F0B473 /* FileTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTableView.swift; sourceTree = "<group>"; };
+		BA223327444A6C4BAC5D3F15 /* DiscoveryPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryPrefs.swift; sourceTree = "<group>"; };
+		BDDEBF1D065B37CB9922714C /* OFL-Rajdhani.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-Rajdhani.txt"; sourceTree = "<group>"; };
+		CD30E9F37C0B87C20788F04F /* AINCRADDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AINCRADDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D025436A20E5981DAEDAAA72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18792294B9E3D8CC8B80257 /* FileOps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOps.swift; sourceTree = "<group>"; };
+		F5BC1F71676E1A1617E448BE /* OFL-Orbitron.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-Orbitron.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		14F698B21803D9193BC98110 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				184B859D6940CD121CAA272B /* AINCRADTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		2D510CB6F0D7791B55FA77D4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				54B38033DF5A26AFB2F2A720 /* ColumnBrowserView.swift */,
+				90FFFDA93F765FF563BCABB9 /* DiscoveryControls.swift */,
+				50C5856F440AFB0F2FB33BE5 /* DiscoveryOps.swift */,
+				A7FABB3D54A35E133817FC2E /* DiscoverySettings.swift */,
+				5EC8A4CCCB0A0A47281FCC73 /* DiscoveryWindowController.swift */,
+				AF6339051149B3E3B8F0B473 /* FileTableView.swift */,
+				6A2EA892B310616E2D71CB23 /* QuickLookPreview.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3C19DFBA44F416CCE14417B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C07DCA5A81C9EC7B70F36227 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		777A6DE32FB84E13BAC073E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA223327444A6C4BAC5D3F15 /* DiscoveryPrefs.swift */,
+				5CC90BFECA4F1BED5388A423 /* FileItem.swift */,
+				D18792294B9E3D8CC8B80257 /* FileOps.swift */,
+				85BCDC9CA71582C935319812 /* FileSearch.swift */,
+				472F401F38B772919033BD5A /* FileStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91D5A634546A4443474B2F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD30E9F37C0B87C20788F04F /* AINCRADDiscovery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		995EA0848917EB959CB518B5 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				D025436A20E5981DAEDAAA72 /* AppDelegate.swift */,
+				5AAC2BB1E14079471A91C8B9 /* Info.plist */,
+				69CC5F3B2912B4CEDC5666A5 /* main.swift */,
+				777A6DE32FB84E13BAC073E1 /* Model */,
+				3C19DFBA44F416CCE14417B7 /* Resources */,
+				14F698B21803D9193BC98110 /* Theme */,
+				2D510CB6F0D7791B55FA77D4 /* UI */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		C07DCA5A81C9EC7B70F36227 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC1F71676E1A1617E448BE /* OFL-Orbitron.txt */,
+				BDDEBF1D065B37CB9922714C /* OFL-Rajdhani.txt */,
+				981D8668AEE4A0772B4A8494 /* Orbitron-wght.ttf */,
+				0A5F72F2B9D3BC702E78C93F /* Rajdhani-Bold.ttf */,
+				689AC676E6ACBF1A58A99AEA /* Rajdhani-Medium.ttf */,
+				71DD4C16A5A75189D600FA6E /* Rajdhani-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E7D14389601DE7BEBD533A1D = {
+			isa = PBXGroup;
+			children = (
+				995EA0848917EB959CB518B5 /* Discovery */,
+				91D5A634546A4443474B2F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0EEEB7DEC53DBBF3FA8350 /* AINCRADDiscovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61841511FF8B0E9FEF7650D4 /* Build configuration list for PBXNativeTarget "AINCRADDiscovery" */;
+			buildPhases = (
+				BA0B981705C288D6D2DB5D85 /* Sources */,
+				D7E548429AC6AD8B0C9BDC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AINCRADDiscovery;
+			packageProductDependencies = (
+			);
+			productName = AINCRADDiscovery;
+			productReference = CD30E9F37C0B87C20788F04F /* AINCRADDiscovery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3240947D29147C2CC42BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8F0EEEB7DEC53DBBF3FA8350 = {
+						DevelopmentTeam = UWC6NUWUHW;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 6D5B919CFF21B677DD3ED856 /* Build configuration list for PBXProject "AINCRADDiscovery" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E7D14389601DE7BEBD533A1D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 91D5A634546A4443474B2F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0EEEB7DEC53DBBF3FA8350 /* AINCRADDiscovery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E548429AC6AD8B0C9BDC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33ECACF5CAEFCE38F2CFEDE /* OFL-Orbitron.txt in Resources */,
+				DEAE20940BA8BBB0DA682ACE /* OFL-Rajdhani.txt in Resources */,
+				C3925DB3ABA8B6210017DB98 /* Orbitron-wght.ttf in Resources */,
+				A9F03332F5F7363D01EBA63F /* Rajdhani-Bold.ttf in Resources */,
+				4B25E262FB4B2E7C1B76E37A /* Rajdhani-Medium.ttf in Resources */,
+				15CF083D3AA1B2F129D43A48 /* Rajdhani-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0B981705C288D6D2DB5D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846CDA24CD6BF258FD9BBE24 /* AINCRADTheme.swift in Sources */,
+				B3D0F2AD1760AF3AEB3BF8D3 /* AppDelegate.swift in Sources */,
+				33A35F1EBF11CCFCAD85EEBC /* ColumnBrowserView.swift in Sources */,
+				5A3C80CCB2DBE4F652A86D33 /* DiscoveryControls.swift in Sources */,
+				B38B19AC287116EF01219844 /* DiscoveryOps.swift in Sources */,
+				9057ABE533F02BE79D73D0A3 /* DiscoveryPrefs.swift in Sources */,
+				EC6D5BB39A0759FC394147EA /* DiscoverySettings.swift in Sources */,
+				6667BF7D062310A06E44EE1F /* DiscoveryWindowController.swift in Sources */,
+				45CB09DA975F34108CCC7B90 /* FileItem.swift in Sources */,
+				9289AA8AF2ED811F6203FD13 /* FileOps.swift in Sources */,
+				5ABDFF5AAAED2788297B2670 /* FileSearch.swift in Sources */,
+				2DD0D37127B11DCB9A035374 /* FileStore.swift in Sources */,
+				FE935E56A1E5AE1A2B73FD7D /* FileTableView.swift in Sources */,
+				00512D7FB9101C3BBBBBCD28 /* QuickLookPreview.swift in Sources */,
+				F58326F4B2750045924ACEEF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		282F78E07A45E8416135B233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Discovery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djag.aincrad.discovery;
+				PRODUCT_NAME = "AINCRAD Discovery";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		61B7A39E96C8793084894201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UWC6NUWUHW;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B18670AF97E9BC22DD9F86C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UWC6NUWUHW;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C17A28FFC1F38F968DBFF932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Discovery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djag.aincrad.discovery;
+				PRODUCT_NAME = "AINCRAD Discovery";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61841511FF8B0E9FEF7650D4 /* Build configuration list for PBXNativeTarget "AINCRADDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17A28FFC1F38F968DBFF932 /* Debug */,
+				282F78E07A45E8416135B233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D5B919CFF21B677DD3ED856 /* Build configuration list for PBXProject "AINCRADDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B7A39E96C8793084894201 /* Debug */,
+				B18670AF97E9BC22DD9F86C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3240947D29147C2CC42BB0 /* Project object */;
+}

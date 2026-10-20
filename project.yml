@@ -1,0 +1,44 @@
+name: AINCRADDiscovery
+options:
+  bundleIdPrefix: com.djag
+  deploymentTarget:
+    macOS: "13.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: UWC6NUWUHW
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "Apple Development"
+    ENABLE_HARDENED_RUNTIME: NO
+targets:
+  AINCRADDiscovery:
+    type: application
+    platform: macOS
+    sources:
+      - path: Discovery
+    info:
+      path: Discovery/Info.plist
+      properties:
+        CFBundleDisplayName: AINCRAD Discovery
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: "13.0"
+        NSPrincipalClass: NSApplication
+        # Alternate, not default: other apps can hand folders and files to Discovery ("Open With") without it taking over.
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: Folder
+            CFBundleTypeRole: Viewer
+            LSHandlerRank: Alternate
+            LSItemContentTypes: [public.folder]
+          - CFBundleTypeName: Item
+            CFBundleTypeRole: Viewer
+            LSHandlerRank: Alternate
+            LSItemContentTypes: [public.item]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.djag.aincrad.discovery
+        PRODUCT_NAME: AINCRAD Discovery
